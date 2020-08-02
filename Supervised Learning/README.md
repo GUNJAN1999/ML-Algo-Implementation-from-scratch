@@ -22,8 +22,8 @@
 
 
 KNN RESULTS
-USING IN-BUILT FUNCTIONS
+- USING IN-BUILT FUNCTIONS
 ACCURACY :96.67
   
-Imlemented from scratch
+- Imlemented from scratch
 ACCURACY : 94.91
