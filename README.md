@@ -1,23 +1,12 @@
 
-## How does k-Nearest Neighbors Work
+## Implementation of Machine Learning algorithm from scratch
 ---
 
+- Machine Learning is the field of study that gives computers the capability to learn without being explicitly programmed. 
 
-<blockquote>
-	
-	Working:  python knn.py
-	Default dataset: iris
+- A computer is said to be learning from Experiences with respect to some class of Tasks, if its performance in a given Task improves with the Experience.A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E
 
-</blockquote>
+-In this project we have implemented a supervised learning algorithm and an unsupervised learning algorithm from scratch and have compared their results with inbuilt implementation using scikit-learn.
 
-- The kNN algorithm is belongs to the family of instance-based, competitive learning and lazy learning algorithms.
-
-- Instance-based algorithms are those algorithms that model the problem using data instances (or rows) in order to make predictive decisions. The kNN algorithm is an extreme form of instance-based methods because all training observations are retained as part of the model.
-
-- It is a competitive learning algorithm, because it internally uses competition between model elements (data instances) in order to make a predictive decision. The objective similarity measure between data instances causes each data instance to compete to “win” or be most similar to a given unseen data instance and contribute to a prediction.
-
-- Lazy learning refers to the fact that the algorithm does not build a model until the time that a prediction is required. It is lazy because it only does work at the last second. This has the benefit of only including data relevant to the unseen data, called a localized model. A disadvantage is that it can be computationally expensive to repeat the same or similar searches over larger training datasets.
-
-- Finally, kNN is powerful because it does not assume anything about the data, other than a distance measure can be calculated consistently between any two instances. As such, it is called non-parametric or non-linear as it does not assume a functional form.
-
-
+- for Supervised Learning we have taken KNN .
+- for Unsupervised Learning we have taken K means Clustering.
