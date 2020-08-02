@@ -3,7 +3,7 @@
 - 1) Specify number of clusters K.
 - 2) Initialize centroids by first shuffling the dataset and then randomly selecting K data points for the centroids without replacement.
 - 3) Keep iterating until there is no change to the centroids. i.e assignment of data points to clusters isn’t changing.
-   3.1)Compute the sum of the squared distance between data points and all centroids.
-   3.2)Assign each data point to the closest cluster (centroid).
-   3.3)Compute the centroids for the clusters by taking the average of the all data points that belong to each cluster.
+-   3.1)Compute the sum of the squared distance between data points and all centroids.
+-   3.2)Assign each data point to the closest cluster (centroid).
+-   3.3)Compute the centroids for the clusters by taking the average of the all data points that belong to each cluster.
 - The approach kmeans follows to solve the problem is called Expectation-Maximization. The E-step is assigning the data points to the closest cluster. The M-step is computing the centroid of each cluster.
